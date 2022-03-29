@@ -1,0 +1,83 @@
+<div><p><b>長文を自動的に畳む</b>機能は、<a href="/Mastodon" title="Mastodon">マストドン</a>の一部のインスタンスで先行して導入されていた機能。<a href="/%E3%83%9E%E3%82%B9%E3%83%88%E3%83%89%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%AC%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA" title="マストドン公式レポジトリ">マストドン公式リポジトリ</a>の2018年9月28日以降のコードにはこの機能が含まれるが、正式なリリースには含まれていない。
+</p>
+<div id="toc"><div lang="ja" dir="ltr"><h2>目次</h2></div>
+<ul>
+<li><a href="#.E3.83.9E.E3.82.B9.E3.83.88.E3.83.89.E3.83.B3.E5.85.AC.E5.BC.8F.E3.83.AC.E3.83.9D.E3.82.B8.E3.83.88.E3.83.AA.E3.81.A7.E3.81.AE.E7.B5.8C.E7.B7.AF">1 マストドン公式レポジトリでの経緯</a></li>
+<li><a href="#.E5.85.88.E8.A1.8C.E3.81.99.E3.82.8B.E5.AE.9F.E8.A3.85">2 先行する実装</a></li>
+<li><a href="#.E5.B0.8E.E5.85.A5.E3.81.97.E3.81.A6.E3.81.84.E3.82.8B.E3.82.AF.E3.83.A9.E3.82.A4.E3.82.A2.E3.83.B3.E3.83.88">3 導入しているクライアント</a></li>
+<li><a href="#Content_Warning.E3.81.A8.E3.81.AE.E9.96.A2.E4.BF.82">4 Content Warningとの関係</a></li>
+<li><a href="#.E4.BB.96.E3.81.AE.E5.88.86.E6.95.A3SNS.E3.81.A8.E3.81.AE.E9.96.A2.E4.BF.82">5 他の分散SNSとの関係</a></li>
+<li><a href="#.E9.96.A2.E9.80.A3.E9.A0.85.E7.9B.AE">6 関連項目</a></li>
+<li><a href="#.E8.84.9A.E6.B3.A8">7 脚注</a></li>
+</ul>
+</div>
+
+<h2>マストドン公式レポジトリでの経緯</h2>
+<p>長文を自動的に畳む機能は、遅くても2016年11月にはすでに要望として挙げられており、<a href="/%E3%83%9E%E3%82%B9%E3%83%88%E3%83%89%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%AC%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA" title="マストドン公式レポジトリ">マストドン公式リポジトリ</a>にイシュー<sup id="cite_ref-1"><a href="#cite_note-1">&#91;1&#93;</a></sup>が立てられた。その後、2017年1月にはプルリクエスト<sup id="cite_ref-2"><a href="#cite_note-2">&#91;2&#93;</a></sup>が作られたが、クローズされている。議論は複数のイシュー<sup id="cite_ref-3"><a href="#cite_note-3">&#91;3&#93;</a></sup><sup id="cite_ref-4"><a href="#cite_note-4">&#91;4&#93;</a></sup><sup id="cite_ref-5"><a href="#cite_note-5">&#91;5&#93;</a></sup><sup id="cite_ref-6"><a href="#cite_note-6">&#91;6&#93;</a></sup>に派生して紛糾した。
+</p><p>その後、2018年9月28日<sup id="cite_ref-7"><a href="#cite_note-7">&#91;7&#93;</a></sup>に実装がマージされ、バージョン2.6.0<sup id="cite_ref-8"><a href="#cite_note-8">&#91;8&#93;</a></sup>で正式にリリースされた。
+</p>
+<h2>先行する実装</h2>
+<ul><li><a href="/Mastodon_Glitch_Edition" title="Mastodon Glitch Edition">Mastodon Glitch Edition</a>は、マストドン本体よりも先に、この機能を実装していた<sup id="cite_ref-9"><a href="#cite_note-9">&#91;9&#93;</a></sup>。</li>
+<li><a href="/Kirishima.cloud" title="Kirishima.cloud">kirishima.cloud</a>は、長文 (縦に長い投稿) をスクロール可能なボックスで表示している。</li></ul>
+<h2>導入しているクライアント</h2>
+<ul><li><a href="/Subway_Tooter" title="Subway Tooter">Subway Tooter</a>は、長文を自動的に畳む機能<sup id="cite_ref-10"><a href="#cite_note-10">&#91;10&#93;</a></sup>を実装している。畳む文字数は設定で変更可能である。</li>
+<li><a href="/TheDesk" title="TheDesk">TheDesk</a>も同様に自動折りたたみ機能<sup id="cite_ref-11"><a href="#cite_note-11">&#91;11&#93;</a></sup>を備える。文字数と行数<sup id="cite_ref-12"><a href="#cite_note-12">&#91;12&#93;</a></sup>を指定できる。</li></ul>
+<h2>Content Warningとの関係</h2>
+<p>長文を畳むために<a href="/Content_Warning" title="Content Warning">Content Warning</a> (CW) を利用することも可能である。特に、日本語圏のマストドンでは、<a href="/Friends.nico" title="Friends.nico">friends.nico</a>など主に<a href="/%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3" title="ローカルタイムライン">ローカルタイムライン</a>をチャットのように用いるインスタンスにおいて、CWを利用して長文を畳むことがマナーとして定着しており、それを怠ると他のユーザーから非難を受けることがある。しかし、CWの本来の利用法は<a href="/%E4%B8%8D%E7%A9%8F" title="不穏">不穏</a>やネタバレなどの危険な投稿を隠すことであり、長文を隠すために利用することは本来の使い方から逸脱するものだという批判もある。また、技術的に解決可能な課題をマナーの問題に転嫁することへの批判もある。
+</p>
+<h2>他の分散SNSとの関係</h2>
+<p><a href="/GNU_social" title="GNU social">GNU social</a>は、縦に長い投稿をスクロールボックスで表示する。<a href="/Pleroma" title="Pleroma">Pleroma</a>のウェブUIは、長文を自動的に畳む機能を標準で搭載している。
+</p>
+<h2>関連項目</h2>
+<ul><li><a href="/%E5%AD%97%E6%95%B0%E5%88%B6%E9%99%90%E3%81%AE%E5%A4%89%E6%9B%B4" title="字数制限の変更">字数制限の変更</a></li></ul>
+<h2>脚注</h2>
+<div><ol>
+<li id="cite_note-1"><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/255">Hide bulk of longer posts from different sites #255</a>
+</li>
+<li id="cite_note-2"><a href="#cite_ref-2">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/pull/658">#255 – Collapsable toots! #658</a>
+</li>
+<li id="cite_note-3"><a href="#cite_ref-3">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/388">post size issues and solving the sensitive content stuff #388</a>
+</li>
+<li id="cite_note-4"><a href="#cite_ref-4">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/3784">Limit displayed content of too long publications (toot/other OStatus) #3784</a>
+</li>
+<li id="cite_note-5"><a href="#cite_ref-5">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/5477">Webapp: Add a 'collapse' button for toots/posts with more than 500 characters #5477</a>
+</li>
+<li id="cite_note-6"><a href="#cite_ref-6">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/6087">Two user prefs: automatic CW; length &gt; X, or user in Auto-CW list  #6087</a>
+</li>
+<li id="cite_note-7"><a href="#cite_ref-7">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/pull/8205">https://github.com/tootsuite/mastodon/pull/8205</a>
+</li>
+<li id="cite_note-8"><a href="#cite_ref-8">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/releases/tag/v2.6.0">https://github.com/tootsuite/mastodon/releases/tag/v2.6.0</a>
+</li>
+<li id="cite_note-9"><a href="#cite_ref-9">↑</a> <a rel="nofollow" href="https://glitch-soc.github.io/docs/features/collapsible-toots/">Collapsible toots | Mastodon Glitch Edition</a>
+</li>
+<li id="cite_note-10"><a href="#cite_ref-10">↑</a> <a rel="nofollow" href="http://subwaytooter.hatenadiary.jp/entry/2017/09/19/032232">1.0.9から1.5.5までの新機能。自動CW。</a>
+</li>
+<li id="cite_note-11"><a href="#cite_ref-11">↑</a> Mika (ver.3) より行数、Riina (ver.4)より文字数による制限に対応。詳しくはクライアントの個別ページを参照。
+</li>
+<li id="cite_note-12"><a href="#cite_ref-12">↑</a> brタグの数だけで判断しているので正確とはいえない。
+</li>
+</ol></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20220327033446
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.072 seconds
+Real time usage: 0.332 seconds
+Preprocessor visited node count: 197/1000000
+Preprocessor generated node count: 442/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4505/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+</div>
+<!-- Saved in parser cache with key mastodon_wiki_ja:pcache:idhash:1659-0!canonical and timestamp 20220327033445 and revision id 12293
+ -->

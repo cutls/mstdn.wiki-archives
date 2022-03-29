@@ -1,0 +1,73 @@
+<div><table>
+
+<tbody><tr>
+<th>タイトル</th><th>セキュリティ<ruby>証明書<rp>(</rp><rt>しょうめうしょ</rt><rp>)</rp></ruby>
+</th></tr>
+<tr>
+<td>ふりがな等</td><td>セキュリティ<ruby>証明書<rp>(</rp><rt>しょうめうしょ</rt><rp>)</rp></ruby>
+</td></tr>
+<tr>
+<th scope="row">品詞
+</th>
+<td>名詞
+</td></tr>
+
+
+</tbody></table>
+<p><br />
+<b>セキュリティ証明書</b>とは、TLSなどの通信において、通信の相手が真正であることを証明する電子的な証明書である。<b>公開鍵証明書</b>、<b>サイト証明書</b>、<b>SSL証明書</b>、<b>サーバー証明書</b>、<b>SSLサーバ証明書</b>とも。
+</p>
+<div id="toc"><div lang="ja" dir="ltr"><h2>目次</h2></div>
+<ul>
+<li><a href="#.E6.A6.82.E8.A6.81">1 概要</a></li>
+<li><a href="#Let.27s_Encrypt.E3.81.AETLS-SNI-01.E5.BB.83.E6.AD.A2">2 Let's EncryptのTLS-SNI-01廃止</a></li>
+<li><a href="#.E9.96.A2.E9.80.A3.E9.A0.85.E7.9B.AE">3 関連項目</a></li>
+<li><a href="#.E8.84.9A.E6.B3.A8">4 脚注</a></li>
+</ul>
+</div>
+
+<h2>概要</h2>
+<p>TLS (Transport Layer Security) またはSSL (Secure Socket Layer) は、インターネットでの通信を暗号化し、安全な通信を可能にするプロトコルである。<a href="/Mastodon" title="Mastodon">マストドン</a>の<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>は、ログインパスワードなどの機密情報を通信するため、TLSによる暗号化が求められる。
+</p><p>セキュリティ証明書は、TLSなどの通信において、通信の相手が真正であることを証明するために使われる。通信経路が暗号化されていても、もし通信の相手が偽物であれば、機密情報を詐取されてしまうおそれがある。
+</p><p>セキュリティ証明書には有効期限が設けられている。有効期限が切れたセキュリティ証明書を提示するウェブサイトは、セキュリティが確保されていないものとして、ブラウザにエラーメッセージが表示される。マストドンのインスタンスのうちには、インスタンスの管理者がセキュリティ証明書の有効期限の更新を怠ったため、セキュリティ証明書が期限切れになり、インスタンスを利用できなくなったものがある。
+</p>
+<h2>Let's EncryptのTLS-SNI-01廃止</h2>
+<p>Let's Encryptは<a href="/2019%E5%B9%B4" title="2019年">2019年</a>3月13日にTLS-SNI-01バリデーションメソッドを廃止した<sup id="cite_ref-1"><a href="#cite_note-1">&#91;1&#93;</a></sup>。これに対応するには、certbotのバージョンを0.28以降にアップデートする必要がある<sup id="cite_ref-2"><a href="#cite_note-2">&#91;2&#93;</a></sup>。Let's Encryptのセキュリティ証明書を使用しているインスタンスまたはウェブサイトは、この対応を怠った場合、TLSによる通信ができなくなる。
+</p>
+<h2>関連項目</h2>
+<ul><li><a href="/Instances_List" title="Instances List">Instances List</a> - セキュリティ証明書の期限のリストが併設されている。</li>
+<li><a href="/%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA:%E6%B6%88%E6%BB%85%E3%81%97%E3%81%9F%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="カテゴリ:消滅したインスタンス">カテゴリ:消滅したインスタンス</a></li>
+<li><a href="/%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA:%E4%B8%80%E6%99%82%E7%9A%84%E3%81%AB%E5%88%A9%E7%94%A8%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%BE%E3%81%9F%E3%81%AF%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88" title="カテゴリ:一時的に利用できなくなっているインスタンスまたはウェブサイト">カテゴリ:一時的に利用できなくなっているインスタンスまたはウェブサイト</a></li></ul>
+<h2>脚注</h2>
+<div><ol>
+<li id="cite_note-1"><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="https://community.letsencrypt.org/t/march-13-2019-end-of-life-for-all-tls-sni-01-validation-support/74209">March 13, 2019: End-of-Life for All TLS-SNI-01 Validation Support</a>
+</li>
+<li id="cite_note-2"><a href="#cite_ref-2">↑</a> <a rel="nofollow" href="https://community.letsencrypt.org/t/how-to-stop-using-tls-sni-01-with-certbot/83210">How to stop using TLS-SNI-01 with Certbot</a>
+</li>
+</ol></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20220327033041
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.053 seconds
+Real time usage: 0.188 seconds
+Preprocessor visited node count: 76/1000000
+Preprocessor generated node count: 306/1000000
+Post‐expand include size: 624/2097152 bytes
+Template argument size: 312/2097152 bytes
+Highest expansion depth: 4/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 895/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   11.513      1 -total
+100.00%   11.513      1 テンプレート:Infobox_word
+ 51.06%    5.878      1 テンプレート:Ruby
+-->
+</div>
+<!-- Saved in parser cache with key mastodon_wiki_ja:pcache:idhash:1668-0!canonical and timestamp 20220327033041 and revision id 12901
+ -->
