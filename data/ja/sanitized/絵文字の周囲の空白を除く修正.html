@@ -1,5 +1,5 @@
-<div><p><b>絵文字の周囲の余白を除く修正</b>は、複数の絵文字を左右または上下に連続して配置したトゥートを表示するとき、それらの絵文字を隙間なく表示するための修正である。当初は<a href="/Mstdn.jp" title="Mstdn.jp">mstdn.jp</a>など複数のインスタンスに独自機能として導入された。その後、マストドンの<a href="/%E3%83%9E%E3%82%B9%E3%83%88%E3%83%89%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%AC%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA" title="マストドン公式レポジトリ">公式レポジトリ</a>にもマージされ<sup id="cite_ref-1"><a href="#cite_note-1">&#91;1&#93;</a></sup>、安定版ではマストドン2.1.0から有効になっている。
-</p><p>この機能が有効になっているインスタンスでも、実際に絵文字を隙間なく表示するためには、絵文字の区切りを通常のスペースではなくzero width space<sup id="cite_ref-2"><a href="#cite_note-2">&#91;2&#93;</a></sup>で記述する必要がある<sup id="cite_ref-3"><a href="#cite_note-3">&#91;3&#93;</a></sup>。<a href="/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E7%B5%B5%E6%96%87%E5%AD%97%E3%81%A7%E3%81%8A%E7%B5%B5%E3%81%8B%E3%81%8D%E3%83%84%E3%83%BC%E3%83%AB" title="カスタム絵文字でお絵かきツール">カスタム絵文字でお絵かきツール</a>は自動的にzero width spaceを挿入する。
+<div><p><b>絵文字の周囲の余白を除く修正</b>は、複数の絵文字を左右または上下に連続して配置したトゥートを表示するとき、それらの絵文字を隙間なく表示するための修正である。当初は<a href="/Mstdn.jp" title="Mstdn.jp">mstdn.jp</a>など複数のインスタンスに独自機能として導入された。その後、マストドンの<a href="/%E3%83%9E%E3%82%B9%E3%83%88%E3%83%89%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%AC%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA" title="マストドン公式レポジトリ">公式レポジトリ</a>にもマージされ<sup><a href="#cite_note-1">&#91;1&#93;</a></sup>、安定版ではマストドン2.1.0から有効になっている。
+</p><p>この機能が有効になっているインスタンスでも、実際に絵文字を隙間なく表示するためには、絵文字の区切りを通常のスペースではなくzero width space<sup><a href="#cite_note-2">&#91;2&#93;</a></sup>で記述する必要がある<sup><a href="#cite_note-3">&#91;3&#93;</a></sup>。<a href="/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E7%B5%B5%E6%96%87%E5%AD%97%E3%81%A7%E3%81%8A%E7%B5%B5%E3%81%8B%E3%81%8D%E3%83%84%E3%83%BC%E3%83%AB" title="カスタム絵文字でお絵かきツール">カスタム絵文字でお絵かきツール</a>は自動的にzero width spaceを挿入する。
 </p>
 <h2>導入しているインスタンス</h2>
 <p>以下のリストにないインスタンスも、マストドン2.1.0以降であればこの機能が有効である。
@@ -12,11 +12,11 @@
 <li><a href="/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E7%B5%B5%E6%96%87%E5%AD%97%E3%81%A7%E3%81%8A%E7%B5%B5%E3%81%8B%E3%81%8D%E3%83%84%E3%83%BC%E3%83%AB" title="カスタム絵文字でお絵かきツール">カスタム絵文字でお絵かきツール</a></li></ul>
 <h2>脚注</h2>
 <div><ol>
-<li id="cite_note-1"><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/pull/5474">https://github.com/tootsuite/mastodon/pull/5474</a>
+<li><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/pull/5474">https://github.com/tootsuite/mastodon/pull/5474</a>
 </li>
-<li id="cite_note-2"><a href="#cite_ref-2">↑</a> ゼロ幅スペース=Unicodeの特殊文字。U+200B。
+<li><a href="#cite_ref-2">↑</a> ゼロ幅スペース=Unicodeの特殊文字。U+200B。
 </li>
-<li id="cite_note-3"><a href="#cite_ref-3">↑</a> 通常のスペースを入れた場合は、絵文字が途切れて表示される。また、通常のスペースもzero width spaceも入れなかった場合は、絵文字として扱われず、ショートコードがそのまま表示される。
+<li><a href="#cite_ref-3">↑</a> 通常のスペースを入れた場合は、絵文字が途切れて表示される。また、通常のスペースもzero width spaceも入れなかった場合は、絵文字として扱われず、ショートコードがそのまま表示される。
 </li>
 </ol></div>
 

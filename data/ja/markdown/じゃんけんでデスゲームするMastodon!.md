@@ -13,7 +13,7 @@
 
 **じゃんけんでデスゲームするMastodon!**とは、オープンソーシャルネットワーク[Mastodon](/Mastodon "Mastodon")で建てられた[インスタンス](/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9 "インスタンス")である。
 
-<div id="toc">
+<div>
 
 <div lang="ja" dir="ltr">
 

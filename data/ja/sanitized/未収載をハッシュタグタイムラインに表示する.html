@@ -1,6 +1,6 @@
 <div><p><b>未収載をハッシュタグタイムラインに表示する</b>とは、<a href="/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9" title="オープンソース">オープンソース</a>の<a href="/%E5%88%86%E6%95%A3SNS" title="分散SNS">分散SNS</a>、<a href="/Mastodon" title="Mastodon">Mastodon</a>の一部インスタンスにおける独自実装の一つである。
 </p>
-<div id="toc"><div lang="ja" dir="ltr"><h2>目次</h2></div>
+<div><div lang="ja" dir="ltr"><h2>目次</h2></div>
 <ul>
 <li><a href="#.E6.A6.82.E8.A6.81">1 概要</a></li>
 <li><a href="#.E5.AE.9F.E8.A3.85.E3.81.97.E3.81.A6.E3.81.84.E3.82.8B.E3.82.A4.E3.83.B3.E3.82.B9.E3.82.BF.E3.83.B3.E3.82.B9">2 実装しているインスタンス</a></li>
@@ -11,9 +11,9 @@
 </div>
 
 <h2>概要</h2>
-<p>Mastodonでは<a href="/%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3" title="ローカルタイムライン">ローカル</a>や<a href="/%E9%80%A3%E5%90%88%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3" title="連合タイムライン">連合</a>、<a href="/%E3%83%8F%E3%83%83%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%B0" title="ハッシュタグ">ハッシュタグ</a>といった<a href="/index.php?title=%E5%85%AC%E9%96%8B%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3&amp;action=edit&amp;redlink=1" title="公開タイムライン (存在しないページ)">公開タイムライン</a>が実装されており、ユーザーは<a href="/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%88" title="トゥート">トゥート</a>（投稿）の公開範囲を変更することでこれらタイムラインに表示するかどうかを選択することができる。
+<p>Mastodonでは<a href="/%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3" title="ローカルタイムライン">ローカル</a>や<a href="/%E9%80%A3%E5%90%88%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3" title="連合タイムライン">連合</a>、<a href="/%E3%83%8F%E3%83%83%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%B0" title="ハッシュタグ">ハッシュタグ</a>といった<a href="/%E5%85%AC%E9%96%8B%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3" title="公開タイムライン (存在しないページ)">公開タイムライン</a>が実装されており、ユーザーは<a href="/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%88" title="トゥート">トゥート</a>（投稿）の公開範囲を変更することでこれらタイムラインに表示するかどうかを選択することができる。
 </p><p>「公開タイムライン」には、公開範囲が「公開」のトゥートのみが表示されるようになっており、「未収載」「非公開」「ダイレクト」の公開範囲のトゥートは表示されない仕様である。
-</p><p>一方で、「未収載」の公開範囲で「ローカル」「連合」といった公開タイムラインに投稿を表示せずに、ハッシュタグタイムラインにのみトゥートを表示したい、という意見も存在しており、Mastodonの公式リポジトリである<a href="/%E3%83%9E%E3%82%B9%E3%83%88%E3%83%89%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA" title="マストドン公式リポジトリ">tootsuite</a>のissuesにおいて何度か取り上げられたが、いずれもリジェクトされている<sup id="cite_ref-1"><a href="#cite_note-1">&#91;1&#93;</a></sup><sup id="cite_ref-2"><a href="#cite_note-2">&#91;2&#93;</a></sup><sup id="cite_ref-3"><a href="#cite_note-3">&#91;3&#93;</a></sup>。
+</p><p>一方で、「未収載」の公開範囲で「ローカル」「連合」といった公開タイムラインに投稿を表示せずに、ハッシュタグタイムラインにのみトゥートを表示したい、という意見も存在しており、Mastodonの公式リポジトリである<a href="/%E3%83%9E%E3%82%B9%E3%83%88%E3%83%89%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA" title="マストドン公式リポジトリ">tootsuite</a>のissuesにおいて何度か取り上げられたが、いずれもリジェクトされている<sup><a href="#cite_note-1">&#91;1&#93;</a></sup><sup><a href="#cite_note-2">&#91;2&#93;</a></sup><sup><a href="#cite_note-3">&#91;3&#93;</a></sup>。
 </p><p>そのため、独自実装でハッシュタグタイムラインに「未収載」（公開タイムラインに表示しない）のトゥートを表示するように改造を施したインスタンスが存在している。
 </p>
 <h2>実装しているインスタンス</h2>
@@ -24,14 +24,14 @@
 </p>
 <h2>関連項目</h2>
 <ul><li><a href="/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%88" title="トゥート">トゥート</a></li>
-<li><a href="/index.php?title=%E5%85%AC%E9%96%8B%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3&amp;action=edit&amp;redlink=1" title="公開タイムライン (存在しないページ)">公開タイムライン</a></li></ul>
+<li><a href="/%E5%85%AC%E9%96%8B%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3" title="公開タイムライン (存在しないページ)">公開タイムライン</a></li></ul>
 <h2>出典</h2>
 <div><ol>
-<li id="cite_note-1"><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/5463">https://github.com/tootsuite/mastodon/issues/5463</a>
+<li><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/5463">https://github.com/tootsuite/mastodon/issues/5463</a>
 </li>
-<li id="cite_note-2"><a href="#cite_ref-2">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/5877">https://github.com/tootsuite/mastodon/issues/5877</a>
+<li><a href="#cite_ref-2">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/5877">https://github.com/tootsuite/mastodon/issues/5877</a>
 </li>
-<li id="cite_note-3"><a href="#cite_ref-3">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/4724">https://github.com/tootsuite/mastodon/issues/4724</a>
+<li><a href="#cite_ref-3">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/4724">https://github.com/tootsuite/mastodon/issues/4724</a>
 </li>
 </ol></div>
 

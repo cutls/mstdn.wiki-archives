@@ -30,8 +30,8 @@
 
 <div>
 
-1.  <span id="cite_note-1">[↑](#cite_ref-1) <a href="https://mastdn.lovesaemi.daemon.asia/about" rel="nofollow">https://mastdn.lovesaemi.daemon.asia/about</a></span>
-2.  <span id="cite_note-2">[↑](#cite_ref-2) <a href="https://mastdn.lovesaemi.daemon.asia/about/more" rel="nofollow">https://mastdn.lovesaemi.daemon.asia/about/more</a></span>
+1.  [↑](#cite_ref-1) <a href="https://mastdn.lovesaemi.daemon.asia/about" rel="nofollow">https://mastdn.lovesaemi.daemon.asia/about</a>
+2.  [↑](#cite_ref-2) <a href="https://mastdn.lovesaemi.daemon.asia/about/more" rel="nofollow">https://mastdn.lovesaemi.daemon.asia/about/more</a>
 
 </div>
 

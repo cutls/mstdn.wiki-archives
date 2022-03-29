@@ -12,7 +12,7 @@
 
 **小田急don**は、[オープンソース](/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9 "オープンソース")の[分散SNS](/%E5%88%86%E6%95%A3SNS "分散SNS")[Mastodon](/Mastodon "Mastodon")の[インスタンス](/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9 "インスタンス")である。
 
-<div id="toc">
+<div>
 
 <div lang="ja" dir="ltr">
 
@@ -74,7 +74,7 @@
 
 <div>
 
-1.  <span id="cite_note-1">[↑](#cite_ref-1) <a href="https://odakyu.app/@admin/100445425814201359" rel="nofollow">@admin@odakyu.appの2018年7月27日のトゥート (100445425814201359)</a></span>
+1.  [↑](#cite_ref-1) <a href="https://odakyu.app/@admin/100445425814201359" rel="nofollow">@admin@odakyu.appの2018年7月27日のトゥート (100445425814201359)</a>
 
 </div>
 

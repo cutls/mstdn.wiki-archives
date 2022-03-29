@@ -1,7 +1,7 @@
 <div><p>クライアントとは「依頼人」「顧客」などの意味を持つ英単語。IT関係では「サーバー」に対する語として「サーバー」からサービスを受けるアプリケーション等の総称として用いられる。
 また、<a href="/Mastodon" title="Mastodon">Mastodon</a>などのSNSにおいてクライアントとは、インスタンスと通信しインスタンスの情報を表示しインスタンスに情報を送信するソフトウェアの総称である。オフシャルWeb(WebUI)もクライアントの一種に入るが一般的にはサードパーティクライアントをクライアントと呼ぶ。この慣習に従いこのページでは主にサードパーティクライアントについて述べる。
 </p>
-<div id="toc"><div lang="ja" dir="ltr"><h2>目次</h2></div>
+<div><div lang="ja" dir="ltr"><h2>目次</h2></div>
 <ul>
 <li><a href="#.E6.A6.82.E8.A6.81">1 概要</a>
 <ul>
@@ -36,7 +36,7 @@
 <p>マストドン自身がWebクライアントを持っているため<a href="/%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA:%E3%82%A6%E3%82%A7%E3%83%96%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88" title="カテゴリ:ウェブクライアント">カテゴリ:ウェブクライアント</a>を見ても数は多くないが、<a href="/Twitter" title="Twitter">Twitter</a>にUIを似せたものなど複数作られている。
 </p>
 <h2>クライアント選び</h2>
-<p>日々アップデートされていくマストドンのクライアント選びは、ソフトウェアの最新更新時に着目するとよい<sup id="cite_ref-1"><a href="#cite_note-1">&#91;1&#93;</a></sup>。また、クライアントを選ぶ際にインターネットの検索エンジンを使って調べることがあるだろう。このときにも情報の新鮮さが重要であるといえ、個人ブログやニュースメディアなどが執筆した記事の中には<a href="/%E6%97%A5%E6%9C%AC%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%83%9E%E3%82%B9%E3%83%88%E3%83%89%E3%83%B3%E3%83%96%E3%83%BC%E3%83%A0" title="日本におけるマストドンブーム">日本におけるマストドンブーム</a>の時に書かれたものも多く存在し、リアルタイム性を欠いていることが少なくない。クライアントの中にはブームに乗って開発したものの沈静化したあと開発を停止してしまったものがある一方で、ブームの時には存在しなかったがその後にリリースされ着実にアップデートされているものも存在している。
+<p>日々アップデートされていくマストドンのクライアント選びは、ソフトウェアの最新更新時に着目するとよい<sup><a href="#cite_note-1">&#91;1&#93;</a></sup>。また、クライアントを選ぶ際にインターネットの検索エンジンを使って調べることがあるだろう。このときにも情報の新鮮さが重要であるといえ、個人ブログやニュースメディアなどが執筆した記事の中には<a href="/%E6%97%A5%E6%9C%AC%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%83%9E%E3%82%B9%E3%83%88%E3%83%89%E3%83%B3%E3%83%96%E3%83%BC%E3%83%A0" title="日本におけるマストドンブーム">日本におけるマストドンブーム</a>の時に書かれたものも多く存在し、リアルタイム性を欠いていることが少なくない。クライアントの中にはブームに乗って開発したものの沈静化したあと開発を停止してしまったものがある一方で、ブームの時には存在しなかったがその後にリリースされ着実にアップデートされているものも存在している。
 </p><p>当然アップデートが頻繁であるクライアントが必ずしもよいものであるとも言えない。「安定しているから」「ずっと使っていて安心できるから」などといった理由から最新アップデートから長時間経っているクライアントが使用されている例もある。タイムラインの閲覧やトゥートの投稿などといったマストドンを利用するにあたっての最低限の機能さえあれば十分であるという場合もあるためである。また、アップデートが頻繁であれば、そこにバグが含まれている可能性（不安定化）や、rc版などに追従した結果正式リリースでは機能が削除されてしまう可能性（仕様変更）、思わぬアップデートが回線容量を逼迫してしまう可能性(特にモバイルクライアントの場合)などが考えられて然るべきである。クライアント作者は当然これらのことを理解している場合が多いと思われるが、使うのが人間であれば作るのも人間であるし、人間には利用できるリソースに限界があり、その上でコストやリソースを割いて制作している場合が多いため、アップデートを強要したり、特定のクライアントをひどく非難することは不当とされる場合が多い。特にマストドンクライアントはオープンソースかつ個人開発のものが多いため、尚更である。
 </p><p>また、マストドンにはインスタンスによって挙動が異なる場合が多いし、独自の機能を実装している場合もある。同じマストドン<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>と括られるものであっても、サードパーティクライアントは公式に用意されたAPIに従って情報をやりとりしているに過ぎず、インスタンス間や他のクライアント(WebUI含む)間で同一情報の提供は保証されない。
 </p><p>マストドンのAPIはドキュメントも多く、制限も緩いため、自分で製作することも比較的簡単である。他のオープンソースクライアントのソースコードを参照してもよい。基本的なプログラミングの知識があるのであればクライアントを自作するのもいいだろう。
@@ -63,63 +63,63 @@
 <li>マストドンに初対応した<a href="/Flantter" title="Flantter">Flantter</a> Version 3.1.7がリリースされる。</li></ul>
 <dl><dt>2017年4月22日</dt></dl>
 <ul><li>(M[i])<a href="/%E5%A4%A9%E3%81%A9%E3%82%93_for_Mastodon" title="天どん for Mastodon">天どん for Mastodon</a>がリリースされる。</li>
-<li>(M[A])<a href="/GNU_social" title="GNU social">GNU social</a>・<a href="/Twitter" title="Twitter">Twitter</a>クライアントの<a href="/index.php?title=AndStatus&amp;action=edit&amp;redlink=1" title="AndStatus (存在しないページ)">AndStatus</a>がMastodonに対応する。</li></ul>
+<li>(M[A])<a href="/GNU_social" title="GNU social">GNU social</a>・<a href="/Twitter" title="Twitter">Twitter</a>クライアントの<a href="/AndStatus" title="AndStatus (存在しないページ)">AndStatus</a>がMastodonに対応する。</li></ul>
 <dl><dt>2017年4月23日</dt></dl>
 <ul><li>(M[A])<a href="/Subway_Tooter" title="Subway Tooter">Subway Tooter</a>がリリースされる。</li>
-<li>(M[A])Twitterクライアントの<a href="/index.php?title=Twidere&amp;action=edit&amp;redlink=1" title="Twidere (存在しないページ)">Twidere</a>がMastodonに対応する。</li></ul>
+<li>(M[A])Twitterクライアントの<a href="/Twidere" title="Twidere (存在しないページ)">Twidere</a>がMastodonに対応する。</li></ul>
 <dl><dt>2017年4月24日</dt></dl>
 <ul><li>(M[A])<a href="/Pawoo" title="Pawoo">Pawoo</a>インスタンス公式クライアントのAndroid版がリリースされる。</li></ul>
 <dl><dt>2017年4月25日</dt></dl>
 <ul><li>(M[i])<a href="/Mustor" title="Mustor">Mustor</a>（旧Mastodon-iOS）がリリースされる。</li>
 <li>(M[i])<a href="/Tootter_for_Mastodon" title="Tootter for Mastodon">Tootter for Mastodon</a>のiOS版がリリースされる。</li>
-<li>(M[A])<a href="/index.php?title=DonaldMastodon&amp;action=edit&amp;redlink=1" title="DonaldMastodon (存在しないページ)">DonaldMastodon</a>がリリースされる。</li></ul>
+<li>(M[A])<a href="/DonaldMastodon" title="DonaldMastodon (存在しないページ)">DonaldMastodon</a>がリリースされる。</li></ul>
 <dl><dt>2017年4月27日</dt></dl>
 <ul><li>(M[i])<a href="/Oyakodon_for_Mastodon" title="Oyakodon for Mastodon">Oyakodon for Mastodon</a>がリリースされる。</li>
 <li>(M[i])<a href="/Friends.nico" title="Friends.nico">friends.nico</a>インスタンス公式クライアントのiOS版がリリースされる。</li>
 <li>(M[i])<a href="/Pawoo" title="Pawoo">Pawoo</a>インスタンス公式クライアントのiOS版がリリースされる。</li></ul>
 <dl><dt>2017年4月29日</dt></dl>
-<ul><li>(M[A])<a href="/index.php?title=Mstdnp&amp;action=edit&amp;redlink=1" title="Mstdnp (存在しないページ)">mstdnp</a>がリリースされる。</li></ul>
+<ul><li>(M[A])<a href="/Mstdnp" title="Mstdnp (存在しないページ)">mstdnp</a>がリリースされる。</li></ul>
 <dl><dt>2017年4月30日</dt></dl>
-<ul><li>(M[i])Twitter向けクライアントの<a href="/index.php?title=Ore2&amp;action=edit&amp;redlink=1" title="Ore2 (存在しないページ)">Ore2</a>がMastodonに対応する。</li></ul>
+<ul><li>(M[i])Twitter向けクライアントの<a href="/Ore2" title="Ore2 (存在しないページ)">Ore2</a>がMastodonに対応する。</li></ul>
 <dl><dt>2017年5月2日</dt></dl>
-<ul><li>(M[A])<a href="/index.php?title=Stegodon&amp;action=edit&amp;redlink=1" title="Stegodon (存在しないページ)">Stegodon</a>がリリースされる。</li></ul>
+<ul><li>(M[A])<a href="/Stegodon" title="Stegodon (存在しないページ)">Stegodon</a>がリリースされる。</li></ul>
 <dl><dt>2017年5月6日</dt></dl>
-<ul><li>(M[i])<a href="/index.php?title=GON&amp;action=edit&amp;redlink=1" title="GON (存在しないページ)">GON</a>がリリースされる。</li></ul>
+<ul><li>(M[i])<a href="/GON" title="GON (存在しないページ)">GON</a>がリリースされる。</li></ul>
 <dl><dt>2017年5月7日</dt></dl>
-<ul><li>(M[A])<a href="/index.php?title=Mastobone&amp;action=edit&amp;redlink=1" title="Mastobone (存在しないページ)">Mastobone</a>がリリースされる。</li></ul>
+<ul><li>(M[A])<a href="/Mastobone" title="Mastobone (存在しないページ)">Mastobone</a>がリリースされる。</li></ul>
 <dl><dt>2017年5月8日</dt></dl>
-<ul><li>(M[A])<a href="/index.php?title=Dndkodon&amp;action=edit&amp;redlink=1" title="Dndkodon (存在しないページ)">dndkodon</a>がリリースされる。</li></ul>
+<ul><li>(M[A])<a href="/Dndkodon" title="Dndkodon (存在しないページ)">dndkodon</a>がリリースされる。</li></ul>
 <dl><dt>2017年5月9日</dt></dl>
-<ul><li>(M[i])Twitter向けクライアントの<a href="/index.php?title=Stella&amp;action=edit&amp;redlink=1" title="Stella (存在しないページ)">Stella</a>がMastodonに対応する。</li></ul>
+<ul><li>(M[i])Twitter向けクライアントの<a href="/Stella" title="Stella (存在しないページ)">Stella</a>がMastodonに対応する。</li></ul>
 <dl><dt>2017年5月12日</dt></dl>
 <ul><li>(M[i])<a href="/Tootdon" title="Tootdon">Tootdon</a>のiOS版がリリースされる。</li>
-<li>(M[A])<a href="/index.php?title=MastoPane&amp;action=edit&amp;redlink=1" title="MastoPane (存在しないページ)">MastoPane</a>がリリースされる。</li></ul>
+<li>(M[A])<a href="/MastoPane" title="MastoPane (存在しないページ)">MastoPane</a>がリリースされる。</li></ul>
 <dl><dt>2017年5月13日</dt></dl>
 <ul><li>(M[A])<a href="/Nekonium" title="Nekonium">nekonium</a>がリリースされる。</li>
-<li>(M[i])<a href="/index.php?title=Toot%EF%BC%81don%EF%BC%81&amp;action=edit&amp;redlink=1" title="Toot！don！ (存在しないページ)">Toot！don！</a>がリリースされる。</li></ul>
+<li>(M[i])<a href="/Toot%EF%BC%81don%EF%BC%81" title="Toot！don！ (存在しないページ)">Toot！don！</a>がリリースされる。</li></ul>
 <dl><dt>2017年5月14日</dt></dl>
-<ul><li>(M[A])Twitter向けクライアントの<a href="/index.php?title=Cosian&amp;action=edit&amp;redlink=1" title="Cosian (存在しないページ)">Cosian</a>がMastodonに対応する。</li></ul>
+<ul><li>(M[A])Twitter向けクライアントの<a href="/Cosian" title="Cosian (存在しないページ)">Cosian</a>がMastodonに対応する。</li></ul>
 <dl><dt>2017年5月15日</dt></dl>
-<ul><li>(M[A])<a href="/index.php?title=Ashra&amp;action=edit&amp;redlink=1" title="Ashra (存在しないページ)">Ashra</a>がリリースされる。</li></ul>
+<ul><li>(M[A])<a href="/Ashra" title="Ashra (存在しないページ)">Ashra</a>がリリースされる。</li></ul>
 <dl><dt>2017年5月17日</dt></dl>
 <ul><li>(W)<a href="/Naumanni" title="Naumanni">Naumanni</a>がリリースされる。</li>
 <li>(M[i])<a href="/Tootle_for_Mastodon" title="Tootle for Mastodon">Tootle for Mastodon</a>がリリースされる。</li></ul>
 <dl><dt>2017年5月19日</dt></dl>
 <ul><li>(M[i])<a href="/11t" title="11t">11t</a>のiOS版がリリースされる。</li></ul>
 <dl><dt>2017年5月22日</dt></dl>
-<ul><li>(M[i])<a href="/index.php?title=ImageLine&amp;action=edit&amp;redlink=1" title="ImageLine (存在しないページ)">ImageLine</a>がリリースされる。</li></ul>
+<ul><li>(M[i])<a href="/ImageLine" title="ImageLine (存在しないページ)">ImageLine</a>がリリースされる。</li></ul>
 <dl><dt>2017年5月24日</dt></dl>
-<ul><li>(M[i])<a href="/index.php?title=TootStomp&amp;action=edit&amp;redlink=1" title="TootStomp (存在しないページ)">TootStomp</a>がリリースされる。</li></ul>
+<ul><li>(M[i])<a href="/TootStomp" title="TootStomp (存在しないページ)">TootStomp</a>がリリースされる。</li></ul>
 <dl><dt>2017年5月26日</dt></dl>
 <ul><li>(Dc)<a href="/Kurotodon" title="Kurotodon">Kurotodon</a>がリリースされる。</li></ul>
 <dl><dt>2017年5月28日</dt></dl>
 <ul><li>(W)<a href="/Halcyon" title="Halcyon">Halcyon</a>がリリースされる。</li></ul>
 <dl><dt>2017年5月31日</dt></dl>
-<ul><li>(M[A])<a href="/index.php?title=Mastty&amp;action=edit&amp;redlink=1" title="Mastty (存在しないページ)">mastty</a>がリリースされる。</li></ul>
+<ul><li>(M[A])<a href="/Mastty" title="Mastty (存在しないページ)">mastty</a>がリリースされる。</li></ul>
 <dl><dt>2017年6月8日</dt></dl>
-<ul><li>(M[A])<a href="/index.php?title=Troutoss&amp;action=edit&amp;redlink=1" title="Troutoss (存在しないページ)">Troutoss</a>がリリースされる。</li></ul>
+<ul><li>(M[A])<a href="/Troutoss" title="Troutoss (存在しないページ)">Troutoss</a>がリリースされる。</li></ul>
 <dl><dt>2017年6月11日</dt></dl>
-<ul><li>(M[i])<a href="/index.php?title=Mameleon&amp;action=edit&amp;redlink=1" title="Mameleon (存在しないページ)">Mameleon</a>がリリースされる。</li></ul>
+<ul><li>(M[i])<a href="/Mameleon" title="Mameleon (存在しないページ)">Mameleon</a>がリリースされる。</li></ul>
 <dl><dt>2017年6月16日</dt></dl>
 <ul><li>(M[A])<a href="/%E5%8D%81%E6%97%A5%E7%94%BA%E5%B8%82%E3%81%AEMastodon" title="十日町市のMastodon">十日町市のMastodon</a>インスタンスの公式クライアント、トマドンがリリースされる。</li></ul>
 <dl><dt>2017年6月26日</dt></dl>
@@ -127,11 +127,11 @@
 <dl><dt>2017年7月8日</dt></dl>
 <ul><li>(M[A])<a href="/Mastalab" title="Mastalab">Fedilab</a>がリリースされる。</li></ul>
 <dl><dt>2017年7月10日</dt></dl>
-<ul><li>(M[i])<a href="/index.php?title=%E3%81%B2%E3%82%89%E3%81%93%E3%81%A9%E3%82%93&amp;action=edit&amp;redlink=1" title="ひらこどん (存在しないページ)">ひらこどん</a>がリリースされる。</li></ul>
+<ul><li>(M[i])<a href="/%E3%81%B2%E3%82%89%E3%81%93%E3%81%A9%E3%82%93" title="ひらこどん (存在しないページ)">ひらこどん</a>がリリースされる。</li></ul>
 <dl><dt>2017年7月12日</dt></dl>
 <ul><li>(M[A])<a href="/Tootter_for_Mastodon" title="Tootter for Mastodon">Tootter for Mastodon</a>のAndroid版がリリースされる。</li>
 <li>(M[i])<a href="/Mstdn.osaka" title="Mstdn.osaka">大阪丼</a>インスタンス公式クライアントのiOS版がリリースされる。</li>
-<li>(M[i])<a href="/index.php?title=Zou&amp;action=edit&amp;redlink=1" title="Zou (存在しないページ)">Zou</a>（RadioZou）がリリースされる。</li></ul>
+<li>(M[i])<a href="/Zou" title="Zou (存在しないページ)">Zou</a>（RadioZou）がリリースされる。</li></ul>
 <dl><dt>2017年7月19日</dt></dl>
 <ul><li>(M[A])<a href="/Friends.nico" title="Friends.nico">friends.nico</a>インスタンス公式クライアントのAndroid版がリリースされる。</li></ul>
 <dl><dt>2017年7月30日</dt></dl>
@@ -149,7 +149,7 @@
 <dl><dt>2017年11月14日</dt></dl>
 <ul><li>(M[i])公式クライアントを持つインスタンスである<a href="/DANCE-DANCE-DANCE.SPACE" title="DANCE-DANCE-DANCE.SPACE">DANCE-DANCE-DANCE.SPACE</a>がサービス開始。</li></ul>
 <dl><dt>2017年12月4日</dt></dl>
-<ul><li>(M[i])<a href="/index.php?title=NowPlaying_(iOS%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88)&amp;action=edit&amp;redlink=1" title="NowPlaying (iOSクライアント) (存在しないページ)">NowPlaying</a>がMastodonに対応。</li></ul>
+<ul><li>(M[i])<a href="/NowPlaying_(iOS%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88)" title="NowPlaying (iOSクライアント) (存在しないページ)">NowPlaying</a>がMastodonに対応。</li></ul>
 <dl><dt>2018年1月13日</dt></dl>
 <ul><li>(Dn[W/L/m])<a href="/TheDesk" title="TheDesk">TheDesk</a>がリリースされる。</li></ul>
 <dl><dt>2018年2月1日</dt></dl>
@@ -161,11 +161,11 @@
 <dl><dt>2018年3月10日</dt></dl>
 <ul><li>(Dn[W/L/m])<a href="/Whalebird" title="Whalebird">whalebird</a>がリリースされる。</li></ul>
 <dl><dt>2018年4月29日</dt></dl>
-<ul><li>(M[A])<a href="/index.php?title=TootTo&amp;action=edit&amp;redlink=1" title="TootTo (存在しないページ)">TootTo</a>がリリースされる。</li></ul>
+<ul><li>(M[A])<a href="/TootTo" title="TootTo (存在しないページ)">TootTo</a>がリリースされる。</li></ul>
 <dl><dt>2018年6月18日</dt></dl>
 <ul><li>(Dn[<b>B</b>])<a href="/Legion" title="Legion">Legion</a>がリリースされる。</li></ul>
 <dl><dt>2018年9月23日</dt></dl>
-<ul><li>(M[A])<a href="/index.php?title=%E3%81%9F%E3%82%8D%E3%81%88%E3%81%A9%E3%82%93&amp;action=edit&amp;redlink=1" title="たろえどん (存在しないページ)">たろえどん</a>がリリースされる。</li></ul>
+<ul><li>(M[A])<a href="/%E3%81%9F%E3%82%8D%E3%81%88%E3%81%A9%E3%82%93" title="たろえどん (存在しないページ)">たろえどん</a>がリリースされる。</li></ul>
 <dl><dt>2018年10月15日</dt></dl>
 <ul><li>(M[i])<a href="/%E6%98%9F%E3%83%97%E3%83%86%E3%83%A9%E3%83%8E" title="星プテラノ">星プテラノ</a>がリリースされる。</li></ul>
 <dl><dt>2018年10月21日</dt></dl>
@@ -174,7 +174,7 @@
 <ul><li>(M[i])<a href="/Toot!" title="Toot!">Toot!</a>がリリースされる。</li></ul>
 <h2>脚注</h2>
 <div><ol>
-<li id="cite_note-1"><a href="#cite_ref-1">↑</a> 積極的にアップデートされているクライアントであればより機能に追従している場合が多いため
+<li><a href="#cite_ref-1">↑</a> 積極的にアップデートされているクライアントであればより機能に追従している場合が多いため
 </li>
 </ol></div>
 

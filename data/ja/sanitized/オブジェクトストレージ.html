@@ -15,7 +15,7 @@
 <p><br />
 </p><p><b>オブジェクトストレージ</b>(英:<b>Object storage</b>)とは、主にオンラインストレージ用途として使われるストレージのアーキテクチャである。拡張性に優れているなどの特長がある。ここではMastodonにおけるオブジェクトストレージを記載する。オブジェクトストレージについては<a href="https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8" title="jawp:オブジェクトストレージ">Wikipediaの記事</a>を参照。
 </p>
-<div id="toc"><div lang="ja" dir="ltr"><h2>目次</h2></div>
+<div><div lang="ja" dir="ltr"><h2>目次</h2></div>
 <ul>
 <li><a href="#.E6.A6.82.E8.A6.81">1 概要</a></li>
 <li><a href="#.E4.B8.BB.E3.81.AA.E3.82.AA.E3.83.96.E3.82.B8.E3.82.A7.E3.82.AF.E3.83.88.E3.82.B9.E3.83.88.E3.83.AC.E3.83.BC.E3.82.B8.E3.82.92.E6.8F.90.E4.BE.9B.E3.81.99.E3.82.8B.E3.82.B5.E3.83.BC.E3.83.93.E3.82.B9">2 主なオブジェクトストレージを提供するサービス</a></li>
@@ -28,8 +28,8 @@
 <h2>概要</h2>
 <p>マストドンは分散SNSという仕様上、大量のメディアを扱う。そのため、メディアファイルがストレージを圧迫してしまうことが多い。よってある程度規模のあるインスタンスでは拡張性に優れるオブジェクトストレージがメディアの保存先として使用されることがある。
 </p><p>マストドンのメディアはデフォルトではホストしているサーバー本体に保存されるが、<code>.env.production</code>において設定をすることでオブジェクトストレージを利用できる。
-</p><p><code>S3_ENABLED</code>や<code>AWS_ACCESS_KEY_ID</code>というパラメータからもわかるとおり、MastodonにおけるオブジェクトストレージはAmazon Web Service(AWS)のS3(Simple Storage Service)の利用を想定している。しかし、S3のAPIが実質的なスタンダードとなっている<sup id="cite_ref-1"><a href="#cite_note-1">&#91;1&#93;</a></sup>ため、S3と互換性のあるオブジェクトストレージが多く存在する。
-</p><p>他にオブジェクトストレージとホスティングサーバーの間に<a href="/index.php?title=CDN&amp;action=edit&amp;redlink=1" title="CDN (存在しないページ)">CDN</a>を通すことでより読み込み速度が上がる。
+</p><p><code>S3_ENABLED</code>や<code>AWS_ACCESS_KEY_ID</code>というパラメータからもわかるとおり、MastodonにおけるオブジェクトストレージはAmazon Web Service(AWS)のS3(Simple Storage Service)の利用を想定している。しかし、S3のAPIが実質的なスタンダードとなっている<sup><a href="#cite_note-1">&#91;1&#93;</a></sup>ため、S3と互換性のあるオブジェクトストレージが多く存在する。
+</p><p>他にオブジェクトストレージとホスティングサーバーの間に<a href="/CDN" title="CDN (存在しないページ)">CDN</a>を通すことでより読み込み速度が上がる。
 </p>
 <h2>主なオブジェクトストレージを提供するサービス</h2>
 <p>Mastodonをホスティングするにあたって主に使われているサービスを挙げる。
@@ -37,23 +37,23 @@
 <ul><li><a rel="nofollow" href="https://aws.amazon.com/jp/s3/">Amazon S3</a></li></ul>
 <dl><dd><a rel="nofollow" href="https://aws.amazon.com/">Amazon Web Services</a>のサービスの一つ。<a rel="nofollow" href="https://ja.wikipedia.org/wiki/Amazon_Simple_Storage_Service">Wikipediaの記事</a>も参照のこと。</dd></dl>
 <ul><li><a rel="nofollow" href="https://cloud.sakura.ad.jp/specification/object-storage/">さくらのクラウド</a></li></ul>
-<dl><dd>現在新規受付を停止している<sup id="cite_ref-2"><a href="#cite_note-2">&#91;2&#93;</a></sup>。</dd></dl>
+<dl><dd>現在新規受付を停止している<sup><a href="#cite_note-2">&#91;2&#93;</a></sup>。</dd></dl>
 <ul><li><a rel="nofollow" href="https://www.conoha.jp/function/objectstorage/">ConoHa</a></li>
 <li><a rel="nofollow" href="https://wasabi.com">Wasabi</a></li></ul>
 <h2>他の分散SNSとの関係</h2>
 <p><a href="/Pleroma" title="Pleroma">Pleroma</a>はオブジェクトストレージとしてAmazon S3と<a href="/%E7%B4%A0%E6%9C%B4%E3%83%87%E3%82%A3%E3%82%B8%E3%82%BF%E3%83%AB%E7%94%BB%E5%83%8F%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E3%82%B9%E3%83%88%E3%83%A9%E3%82%AF%E3%83%81%E3%83%A3%E3%83%BC" title="素朴ディジタル画像インフラストラクチャー">素朴ディジタル画像インフラストラクチャー</a>を使用できる。
-</p><p><a href="/Misskey" title="Misskey">Misskey</a>はオブジェクトストレージとしてAmazon S3を使用できる。なお、設定項目の名称はminioとなっている。Minio<sup id="cite_ref-3"><a href="#cite_note-3">&#91;3&#93;</a></sup>は、Amazon S3と互換性のある、オープンソースなオブジェクトストレージである。
+</p><p><a href="/Misskey" title="Misskey">Misskey</a>はオブジェクトストレージとしてAmazon S3を使用できる。なお、設定項目の名称はminioとなっている。Minio<sup><a href="#cite_note-3">&#91;3&#93;</a></sup>は、Amazon S3と互換性のある、オープンソースなオブジェクトストレージである。
 </p>
 <h2>関連項目</h2>
 <ul><li><a href="/TheDesk" title="TheDesk">TheDesk</a></li></ul>
 <dl><dd>配信にS3を使用している。</dd></dl>
 <h2>注釈</h2>
 <div><ol>
-<li id="cite_note-1"><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="http://www.atmarkit.co.jp/ait/articles/1210/29/news090.html">http://www.atmarkit.co.jp/ait/articles/1210/29/news090.html</a>
+<li><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="http://www.atmarkit.co.jp/ait/articles/1210/29/news090.html">http://www.atmarkit.co.jp/ait/articles/1210/29/news090.html</a>
 </li>
-<li id="cite_note-2"><a href="#cite_ref-2">↑</a> 2018年8月5日現在
+<li><a href="#cite_ref-2">↑</a> 2018年8月5日現在
 </li>
-<li id="cite_note-3"><a href="#cite_ref-3">↑</a> <a rel="nofollow" href="https://www.minio.io">https://www.minio.io</a>
+<li><a href="#cite_ref-3">↑</a> <a rel="nofollow" href="https://www.minio.io">https://www.minio.io</a>
 </li>
 </ol></div>
 

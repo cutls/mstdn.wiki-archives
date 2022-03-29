@@ -29,7 +29,7 @@
 <p><br />
 <b><ruby>連合<rt>れんごう</rt></ruby>タイムライン</b>(<b>略称：FTL</b>)とは、<a href="/Mastodon" title="Mastodon">Mastodon</a>において使われている用語で、3つの<a href="/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3" title="タイムライン">タイムライン</a>の1つである。
 </p>
-<div id="toc"><div lang="ja" dir="ltr"><h2>目次</h2></div>
+<div><div lang="ja" dir="ltr"><h2>目次</h2></div>
 <ul>
 <li><a href="#.E6.A6.82.E8.A6.81">1 概要</a></li>
 <li><a href="#.E4.BB.95.E6.A7.98">2 仕様</a></li>
@@ -41,22 +41,22 @@
 
 <h2>概要</h2>
 <p><ruby>連合<rt>れんごう</rt></ruby>タイムライン(英:Federated Timeline)は、Mastodonにおける3つのタイムラインの1つであり、基本的に最も多くの<a href="/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%88" title="トゥート">トゥート</a>が流れるタイムラインである。
-</p><p>連合(Federated)の名前の由来はMastodonのベースである<a href="/GNU_social" title="GNU social">GNU social</a>から来ているとされており、日本語翻訳もそれに倣って制定された<sup id="cite_ref-1"><a href="#cite_note-1">&#91;1&#93;</a></sup>。そのため、安定版1.1.2のリリースまでに「<b>連邦タイムライン</b>」と表示されていた期間があった。
+</p><p>連合(Federated)の名前の由来はMastodonのベースである<a href="/GNU_social" title="GNU social">GNU social</a>から来ているとされており、日本語翻訳もそれに倣って制定された<sup><a href="#cite_note-1">&#91;1&#93;</a></sup>。そのため、安定版1.1.2のリリースまでに「<b>連邦タイムライン</b>」と表示されていた期間があった。
 </p>
 <h2>仕様</h2>
-<p>連合タイムラインには自分の所属<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>に関わりのある<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>のユーザーのトゥートが表示される。具体的には自分の所属している<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>のユーザー、そのユーザーが<a href="/%E3%83%95%E3%82%A9%E3%83%AD%E3%83%BC" title="フォロー">フォロー</a>している他の<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>のユーザー、及びその<a href="/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%88" title="トゥート">トゥート</a>への返信か<a href="/%E3%83%96%E3%83%BC%E3%82%B9%E3%83%88" title="ブースト">ブースト</a>をした相手ユーザーによるトゥートが表示される<sup id="cite_ref-2"><a href="#cite_note-2">&#91;2&#93;</a></sup>。また、インスタンスに接続されているユーザーのトゥートではなくても、ブーストがされた場合はタイムラインに流れる。上記の仕様から、すべてのマストドンユーザーのトゥートが表示されるわけではないので注意が必要である。
+<p>連合タイムラインには自分の所属<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>に関わりのある<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>のユーザーのトゥートが表示される。具体的には自分の所属している<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>のユーザー、そのユーザーが<a href="/%E3%83%95%E3%82%A9%E3%83%AD%E3%83%BC" title="フォロー">フォロー</a>している他の<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>のユーザー、及びその<a href="/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%88" title="トゥート">トゥート</a>への返信か<a href="/%E3%83%96%E3%83%BC%E3%82%B9%E3%83%88" title="ブースト">ブースト</a>をした相手ユーザーによるトゥートが表示される<sup><a href="#cite_note-2">&#91;2&#93;</a></sup>。また、インスタンスに接続されているユーザーのトゥートではなくても、ブーストがされた場合はタイムラインに流れる。上記の仕様から、すべてのマストドンユーザーのトゥートが表示されるわけではないので注意が必要である。
 </p><p>また、正規表現により表示トゥートにフィルターを掛けることが可能である。
 </p>
 <h2>他の分散SNSとの関係</h2>
-<p><a href="/Pleroma" title="Pleroma">Pleroma</a>では<b>The Whole Known Network</b>と表記される。しばしばTWKN<sup id="cite_ref-3"><a href="#cite_note-3">&#91;3&#93;</a></sup>と略される。
+<p><a href="/Pleroma" title="Pleroma">Pleroma</a>では<b>The Whole Known Network</b>と表記される。しばしばTWKN<sup><a href="#cite_note-3">&#91;3&#93;</a></sup>と略される。
 </p>
 <h2>出典</h2>
 <div><ol>
-<li id="cite_note-1"><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="https://github.com/pinfort/mastodon/issues/5">Federated timeline の和訳について · Issue #5 · pinfort_mastodon</a>
+<li><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="https://github.com/pinfort/mastodon/issues/5">Federated timeline の和訳について · Issue #5 · pinfort_mastodon</a>
 </li>
-<li id="cite_note-2"><a href="#cite_ref-2">↑</a> <a rel="nofollow" href="http://www.dream-seed.com/weblog/note/mastodon-my-instance">http://www.dream-seed.com/weblog/note/mastodon-my-instance</a>
+<li><a href="#cite_ref-2">↑</a> <a rel="nofollow" href="http://www.dream-seed.com/weblog/note/mastodon-my-instance">http://www.dream-seed.com/weblog/note/mastodon-my-instance</a>
 </li>
-<li id="cite_note-3"><a href="#cite_ref-3">↑</a> <a rel="nofollow" href="https://git.pleroma.social/pleroma/pleroma-fe/merge_requests/190">cooler name for twkn, but needs translations... orz</a>
+<li><a href="#cite_ref-3">↑</a> <a rel="nofollow" href="https://git.pleroma.social/pleroma/pleroma-fe/merge_requests/190">cooler name for twkn, but needs translations... orz</a>
 </li>
 </ol></div>
 <h2>関連項目</h2>

@@ -1,7 +1,7 @@
 <div><p><b>字数制限の変更</b>とは、トゥートの最大字数を変更する改造である。
 </p><p>通常のマストドンはトゥートの字数が500字に制限されているが、マストドンは改造が自由なため、そうした制限を緩和したり変更する<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>も多数存在する。
 </p>
-<div id="toc"><div lang="ja" dir="ltr"><h2>目次</h2></div>
+<div><div lang="ja" dir="ltr"><h2>目次</h2></div>
 <ul>
 <li><a href="#.E5.B0.8E.E5.85.A5.E3.81.97.E3.81.A6.E3.81.84.E3.82.8B.E3.82.A4.E3.83.B3.E3.82.B9.E3.82.BF.E3.83.B3.E3.82.B9">1 導入しているインスタンス</a></li>
 <li><a href="#.E3.82.AF.E3.83.A9.E3.82.A4.E3.82.A2.E3.83.B3.E3.83.88.E3.81.A8.E3.81.AE.E9.96.A2.E4.BF.82">2 クライアントとの関係</a></li>
@@ -20,7 +20,7 @@
 <li><a href="/%E3%81%BE%E3%81%99%E3%81%A8%E3%81%A9%E3%82%93%E3%81%A1%E3%81%BB%E3%83%BC" title="ますとどんちほー">ますとどんちほー</a>は字数制限を2048字に変更している。</li>
 <li><a href="/Itabashi.0j0.jp" title="Itabashi.0j0.jp">itabashi.0j0.jp</a>は字数制限を5000字に変更している。</li></ul>
 <h2>クライアントとの関係</h2>
-<p>一部インスタンス(<a href="/Glitch-soc" title="Glitch-soc">Mastodon Glitch Edition</a>や<a href="/Pleroma" title="Pleroma">Pleroma</a>を導入しているインスタンス)ではクライアント開発者のために、<code>GET api/v1/instance</code>の<code>max_toot_chars</code>を参照することでインスタンスの字数制限を確認できるようになっている。一般的なインスタンスでは字数制限を変更してもAPI等で取得する手段はない。(過去にIssuesが建ちプルリクエストもあったがリジェクトされている<sup id="cite_ref-1"><a href="#cite_note-1">&#91;1&#93;</a></sup><sup id="cite_ref-2"><a href="#cite_note-2">&#91;2&#93;</a></sup>)。その場合、クライアントの実装として500字オーバーをしても投稿ボタンを押せばリクエストを送信することで長文トゥートを投稿できる。
+<p>一部インスタンス(<a href="/Glitch-soc" title="Glitch-soc">Mastodon Glitch Edition</a>や<a href="/Pleroma" title="Pleroma">Pleroma</a>を導入しているインスタンス)ではクライアント開発者のために、<code>GET api/v1/instance</code>の<code>max_toot_chars</code>を参照することでインスタンスの字数制限を確認できるようになっている。一般的なインスタンスでは字数制限を変更してもAPI等で取得する手段はない。(過去にIssuesが建ちプルリクエストもあったがリジェクトされている<sup><a href="#cite_note-1">&#91;1&#93;</a></sup><sup><a href="#cite_note-2">&#91;2&#93;</a></sup>)。その場合、クライアントの実装として500字オーバーをしても投稿ボタンを押せばリクエストを送信することで長文トゥートを投稿できる。
 </p><p><a href="/TheDesk" title="TheDesk">TheDesk</a>は独自のデータベースをもって文字数制限を取得している。また、APIも併用して字数制限を決定している。
 </p>
 <h2>他の分散SNSとの関係</h2>
@@ -36,9 +36,9 @@
 <ul><li><a rel="nofollow" href="https://qiita.com/Ress/items/064109cf36ea5437c3a1">Mastodonをカスタマイズする</a></li></ul>
 <h2>注釈</h2>
 <div><ol>
-<li id="cite_note-1"><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/4915">https://github.com/tootsuite/mastodon/issues/4915</a>
+<li><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/issues/4915">https://github.com/tootsuite/mastodon/issues/4915</a>
 </li>
-<li id="cite_note-2"><a href="#cite_ref-2">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/pull/5697">https://github.com/tootsuite/mastodon/pull/5697</a>
+<li><a href="#cite_ref-2">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/pull/5697">https://github.com/tootsuite/mastodon/pull/5697</a>
 </li>
 </ol></div>
 

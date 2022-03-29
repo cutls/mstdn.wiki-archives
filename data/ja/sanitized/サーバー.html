@@ -3,7 +3,7 @@
 <table>
 
 <tbody><tr>
-<th>タイトル</th><th><ruby>サーバー</ruby>
+<th>タイトル</th><th>サーバー
 </th></tr>
 <tr>
 <td>ふりがな等</td><td><ruby>サーバー</ruby>
@@ -21,7 +21,7 @@
 <p><br />
 </p><p><br />
 </p>
-<div id="toc"><div lang="ja" dir="ltr"><h2>目次</h2></div>
+<div><div lang="ja" dir="ltr"><h2>目次</h2></div>
 <ul>
 <li><a href="#.E6.A6.82.E8.A6.81">1 概要</a></li>
 <li><a href="#Mastodon.E3.81.AE.E3.82.B5.E3.83.BC.E3.83.90.E3.83.BC.E6.A7.8B.E6.88.90">2 Mastodonのサーバー構成</a></li>
@@ -34,15 +34,15 @@
 <p>サーバーは、何らかのサービスを提供するコンピューターである。ネットスラングでの略称としては鯖が一般的で、<a href="/Mastodon" title="Mastodon">Mastodon</a>においては主に<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>の事を指すが、インスタンスを構成するコンピューターの事を指して使われる場合もあり注意が必要である。
 </p>
 <h2>Mastodonのサーバー構成</h2>
-<p><a href="/Mastodon" title="Mastodon">Mastodon</a>はRuby on Railsで記述されたアプリケーションサーバー、データベース(PostgreSQL, Redis)、リバースプロキシなどが組み合わさって一つのインスタンスとなっている。<sup id="cite_ref-1"><a href="#cite_note-1">&#91;1&#93;</a></sup>
-</p><p>web、streaming、タスク処理、DBそれぞれを別のサーバーで動かし、同時接続数を増やすためHTTPサーバーを多数起動する<sup id="cite_ref-2"><a href="#cite_note-2">&#91;2&#93;</a></sup>などの場合があり、管理者が「サーバーを増やす」と発言した場合にこのサーバー増強、負荷分散のことを指すか<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>を増やすことを指すか、どちらであるかの判断は難しい。
+<p><a href="/Mastodon" title="Mastodon">Mastodon</a>はRuby on Railsで記述されたアプリケーションサーバー、データベース(PostgreSQL, Redis)、リバースプロキシなどが組み合わさって一つのインスタンスとなっている。<sup><a href="#cite_note-1">&#91;1&#93;</a></sup>
+</p><p>web、streaming、タスク処理、DBそれぞれを別のサーバーで動かし、同時接続数を増やすためHTTPサーバーを多数起動する<sup><a href="#cite_note-2">&#91;2&#93;</a></sup>などの場合があり、管理者が「サーバーを増やす」と発言した場合にこのサーバー増強、負荷分散のことを指すか<a href="/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9" title="インスタンス">インスタンス</a>を増やすことを指すか、どちらであるかの判断は難しい。
 (アナウンスとしての発言ならばインスタンスのことを指している可能性が高いが、インスタンスと言っていない以上断定はできない)
 </p>
 <h2>出典</h2>
 <div><ol>
-<li id="cite_note-1"><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/blob/master/docker-compose.yml">https://github.com/tootsuite/mastodon/blob/master/docker-compose.yml</a>
+<li><a href="#cite_ref-1">↑</a> <a rel="nofollow" href="https://github.com/tootsuite/mastodon/blob/master/docker-compose.yml">https://github.com/tootsuite/mastodon/blob/master/docker-compose.yml</a>
 </li>
-<li id="cite_note-2"><a href="#cite_ref-2">↑</a> ぬるかる‏ @nullkal: mstdn.jp，HTTP鯖4台ぶっ立ててるので，マジでDBだけがボトルネックです <a rel="nofollow" href="https://twitter.com/nullkal/status/853231664419426304">https://twitter.com/nullkal/status/853231664419426304</a>
+<li><a href="#cite_ref-2">↑</a> ぬるかる‏ @nullkal: mstdn.jp，HTTP鯖4台ぶっ立ててるので，マジでDBだけがボトルネックです <a rel="nofollow" href="https://twitter.com/nullkal/status/853231664419426304">https://twitter.com/nullkal/status/853231664419426304</a>
 </li>
 </ol></div>
 <h2>関連項目</h2>

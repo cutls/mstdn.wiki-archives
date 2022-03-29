@@ -2,7 +2,7 @@
 
 |          |                                                                                                                                                                                                                 |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| タイトル | **十日町市のMastodon**(とおかまちしのますとどん)                                                                                                                                                                |
+| タイトル | **十日町市のMastodon**                                                                                                                                                                                          |
 | 画像     | [<img src="/images/thumb/e/e5/Tokamstdn.png/300px-Tokamstdn.png" srcset="/images/e/e5/Tokamstdn.png 1.5x" width="300" height="222" alt="Tokamstdn.png" />](/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Tokamstdn.png) |
 | ドメイン | tokamstdn.jp                                                                                                                                                                                                    |
 | 管理者   | ハル                                                                                                                                                                                                            |
@@ -28,7 +28,7 @@
 
 <div>
 
-1.  <span id="cite_note-1">[↑](#cite_ref-1) <a href="https://tokamstdn.jp/@west2538/99090755151115384" rel="nofollow">https://tokamstdn.jp/@west2538/99090755151115384</a></span>
+1.  [↑](#cite_ref-1) <a href="https://tokamstdn.jp/@west2538/99090755151115384" rel="nofollow">https://tokamstdn.jp/@west2538/99090755151115384</a>
 
 </div>
 

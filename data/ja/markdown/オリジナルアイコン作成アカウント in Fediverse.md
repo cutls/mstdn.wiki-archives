@@ -1,6 +1,6 @@
 <div>
 
-<div id="toc">
+<div>
 
 <div lang="ja" dir="ltr">
 

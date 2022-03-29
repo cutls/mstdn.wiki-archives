@@ -53,7 +53,7 @@ Kenji Wada氏により、2017年4月22日にAppStoreで公開されたiOS向け�
 
 <div>
 
-1.  <span id="cite_note-1">[↑](#cite_ref-1) 設定の「Debug」からタイムラインを閲覧できる機能が利用できるが、未完成と思われる</span>
+1.  [↑](#cite_ref-1) 設定の「Debug」からタイムラインを閲覧できる機能が利用できるが、未完成と思われる
 
 </div>
 

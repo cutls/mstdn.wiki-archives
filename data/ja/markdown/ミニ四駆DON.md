@@ -2,7 +2,7 @@
 
 |          |                                                                                                                                                                                                                                                                                                                                                                            |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| タイトル | **ミニ四駆DON**(みによんくどん)                                                                                                                                                                                                                                                                                                                                            |
+| タイトル | **ミニ四駆DON**                                                                                                                                                                                                                                                                                                                                                            |
 | 画像     | [<img src="/images/thumb/8/83/Mini4wdDON_logo_WH.png/200px-Mini4wdDON_logo_WH.png" srcset="/images/thumb/8/83/Mini4wdDON_logo_WH.png/300px-Mini4wdDON_logo_WH.png 1.5x, /images/thumb/8/83/Mini4wdDON_logo_WH.png/400px-Mini4wdDON_logo_WH.png 2x" width="200" height="200" alt="Mini4wdDON logo WH.png" />](/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Mini4wdDON_logo_WH.png) |
 | ドメイン | <a href="https://mstdn.mini4wd-engineer.com" rel="nofollow">https://mstdn.mini4wd-engineer.com</a>                                                                                                                                                                                                                                                                         |
 | 管理者   | <a href="https://mstdn.mini4wd-engineer.com/@kumanotetu" rel="nofollow">クマノテツ</a>                                                                                                                                                                                                                                                                                     |
@@ -12,7 +12,7 @@
 
 **ミニ四駆DON**(みによんくどん)は、オープンソースのソーシャルネットワークMastodonの[インスタンス](/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9 "インスタンス")。
 
-<div id="toc">
+<div>
 
 <div lang="ja" dir="ltr">
 
@@ -48,7 +48,7 @@
 
 <div>
 
-1.  <span id="cite_note-1">[↑](#cite_ref-1) <a href="https://mstdn.mini4wd-engineer.com/@kumanotetu/2" rel="nofollow">https://mstdn.mini4wd-engineer.com/@kumanotetu/2</a></span>
+1.  [↑](#cite_ref-1) <a href="https://mstdn.mini4wd-engineer.com/@kumanotetu/2" rel="nofollow">https://mstdn.mini4wd-engineer.com/@kumanotetu/2</a>
 
 </div>
 

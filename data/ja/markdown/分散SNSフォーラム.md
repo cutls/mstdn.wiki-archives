@@ -20,7 +20,7 @@
 
 観測対象となるインスタンスは[Peers API](/Peers_API "Peers API")を再帰的に探索することで自動的に取得している<sup>[\[2\]](#cite_note-2)</sup>。
 
-<div id="toc">
+<div>
 
 <div lang="ja" dir="ltr">
 
@@ -184,19 +184,19 @@ GNU socialインスタンスのリスト。ホスト名のアルファベット�
 
 <div>
 
-1.  <span id="cite_note-1">[↑](#cite_ref-1) <a href="https://github.com/distsn/follow-recommendation" rel="nofollow">https://github.com/distsn/follow-recommendation</a></span>
-2.  <span id="cite_note-2">[↑](#cite_ref-2) これは2017年1月14日以降の仕様である。開設当初は、GitHubを通してプルリクエストを送ることで追加を申請する必要があった。2017年1月1日からは、[Mastodon Instances](/Mastodon_Instances "Mastodon Instances")に登録されているすべてのインスタンスを自動的に取得するほか、複数の[Pleroma](/Pleroma "Pleroma")インスタンスが手動で追加されていた。</span>
-3.  <span id="cite_note-3">[↑](#cite_ref-3) 対応している実装の正確なリストは[libsocialnet](/Libsocialnet "Libsocialnet")を参照。</span>
-4.  <span id="cite_note-4">[↑](#cite_ref-4) その後に追加された対応する実装については[libsocialnet](/Libsocialnet "Libsocialnet")を参照。</span>
-5.  <span id="cite_note-5">[↑](#cite_ref-5) <a href="https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/Apps.md" rel="nofollow">https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/Apps.md</a></span>
-6.  <span id="cite_note-6">[↑](#cite_ref-6) <a href="https://joinmastodon.org/apps" rel="nofollow">https://joinmastodon.org/apps</a></span>
-7.  <span id="cite_note-7">[↑](#cite_ref-7) [ephemeral.glitch.social](/Ephemeral.glitch.social "Ephemeral.glitch.social")を参照。</span>
-8.  <span id="cite_note-8">[↑](#cite_ref-8) <a href="https://masto.news/2017/07/10/sokuteiki/" rel="nofollow">「マストドン流速順ユーザーリスト」登場</a></span>
-9.  <span id="cite_note-9">[↑](#cite_ref-9) <a href="https://masto.news/2017/07/16/ryusoku-instance/" rel="nofollow">「マストドン流速順インスタンスリスト」登場</a></span>
-10. <span id="cite_note-10">[↑](#cite_ref-10) <a href="https://github.com/distsn/follow-recommendation/commit/ac29aa4197c6f7d1563f6affb78d7a442886a142" rel="nofollow">https://github.com/distsn/follow-recommendation/commit/ac29aa4197c6f7d1563f6affb78d7a442886a142</a></span>
-11. <span id="cite_note-11">[↑](#cite_ref-11) <a href="http://www.itmedia.co.jp/news/articles/1802/24/news033.html" rel="nofollow">Pleromaサーバのよいところ</a></span>
-12. <span id="cite_note-12">[↑](#cite_ref-12) <a href="https://masto.news/2018/03/14/pleroma-instances" rel="nofollow">Pleromaインスタンスの一覧「Pleroma Instances」</a></span>
-13. <span id="cite_note-13">[↑](#cite_ref-13) <a href="https://github.com/distsn/follow-recommendation/issues/48" rel="nofollow">https://github.com/distsn/follow-recommendation/issues/48</a></span>
+1.  [↑](#cite_ref-1) <a href="https://github.com/distsn/follow-recommendation" rel="nofollow">https://github.com/distsn/follow-recommendation</a>
+2.  [↑](#cite_ref-2) これは2017年1月14日以降の仕様である。開設当初は、GitHubを通してプルリクエストを送ることで追加を申請する必要があった。2017年1月1日からは、[Mastodon Instances](/Mastodon_Instances "Mastodon Instances")に登録されているすべてのインスタンスを自動的に取得するほか、複数の[Pleroma](/Pleroma "Pleroma")インスタンスが手動で追加されていた。
+3.  [↑](#cite_ref-3) 対応している実装の正確なリストは[libsocialnet](/Libsocialnet "Libsocialnet")を参照。
+4.  [↑](#cite_ref-4) その後に追加された対応する実装については[libsocialnet](/Libsocialnet "Libsocialnet")を参照。
+5.  [↑](#cite_ref-5) <a href="https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/Apps.md" rel="nofollow">https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/Apps.md</a>
+6.  [↑](#cite_ref-6) <a href="https://joinmastodon.org/apps" rel="nofollow">https://joinmastodon.org/apps</a>
+7.  [↑](#cite_ref-7) [ephemeral.glitch.social](/Ephemeral.glitch.social "Ephemeral.glitch.social")を参照。
+8.  [↑](#cite_ref-8) <a href="https://masto.news/2017/07/10/sokuteiki/" rel="nofollow">「マストドン流速順ユーザーリスト」登場</a>
+9.  [↑](#cite_ref-9) <a href="https://masto.news/2017/07/16/ryusoku-instance/" rel="nofollow">「マストドン流速順インスタンスリスト」登場</a>
+10. [↑](#cite_ref-10) <a href="https://github.com/distsn/follow-recommendation/commit/ac29aa4197c6f7d1563f6affb78d7a442886a142" rel="nofollow">https://github.com/distsn/follow-recommendation/commit/ac29aa4197c6f7d1563f6affb78d7a442886a142</a>
+11. [↑](#cite_ref-11) <a href="http://www.itmedia.co.jp/news/articles/1802/24/news033.html" rel="nofollow">Pleromaサーバのよいところ</a>
+12. [↑](#cite_ref-12) <a href="https://masto.news/2018/03/14/pleroma-instances" rel="nofollow">Pleromaインスタンスの一覧「Pleroma Instances」</a>
+13. [↑](#cite_ref-13) <a href="https://github.com/distsn/follow-recommendation/issues/48" rel="nofollow">https://github.com/distsn/follow-recommendation/issues/48</a>
 
 </div>
 

@@ -10,9 +10,9 @@
 | リンク                 | <a href="https://github.com/tootsuite/mastodon/releases/tag/v1.0" rel="nofollow">実装されたリリース</a><sup>[\[1\]](#cite_note-1)</sup>                                                                                                                                                                |
 
   
-**ストリーミングAPI**（英：Streaming API）とは、[Mastodon](/Mastodon "Mastodon")における[API](/index.php?title=API&action=edit&redlink=1 "API (存在しないページ)")の一種。
+**ストリーミングAPI**（英：Streaming API）とは、[Mastodon](/Mastodon "Mastodon")における[API](/API "API (存在しないページ)")の一種。
 
-<div id="toc">
+<div>
 
 <div lang="ja" dir="ltr">
 
@@ -47,7 +47,7 @@ Mastodonには複数種類の[タイムライン](/%E3%82%BF%E3%82%A4%E3%83%A0%E
 
 <div>
 
-1.  <span id="cite_note-1">[↑](#cite_ref-1) user,public,hashtagのみ。</span>
+1.  [↑](#cite_ref-1) user,public,hashtagのみ。
 
 </div>
 

@@ -10,7 +10,7 @@
 <td></td>
 <td><strong>この記事はまだ書きかけです。</strong>
 <div>
-あなたが<a href="https://ja.mstdn.wiki/index.php?title=%E4%BB%96SNS%E3%81%A8%E3%81%AE%E7%94%A8%E8%AA%9E%E3%81%AE%E5%AF%BE%E5%BF%9C&amp;action=edit" rel="nofollow">内容を拡充</a>してみませんか？
+あなたが<a href="https://ja.mstdn.wiki/%E4%BB%96SNS%E3%81%A8%E3%81%AE%E7%94%A8%E8%AA%9E%E3%81%AE%E5%AF%BE%E5%BF%9C&amp;action=edit" rel="nofollow">内容を拡充</a>してみませんか？
 </div></td>
 </tr>
 </tbody>

@@ -21,7 +21,7 @@
 
 複数のソーシャルウェブサイト（サーバー）で「[連合](/%E9%80%A3%E5%90%88 "連合")」が構成されているのが特徴で、ユーザーはそのいずれかのウェブサイトからいずれかのウェブサイトのユーザーと通信することができる。
 
-<div id="toc">
+<div>
 
 <div lang="ja" dir="ltr">
 
@@ -48,7 +48,7 @@
 
 現在多くの分散SNSにおいて主流なのは、多くのソフトウェアに組み込むことのでき、共通の規格で通信を可能にするオープンなプロトコルを利用したものである。
 
-この流れは2007年、**OpenMicroBlogging**（後の[Ostatus](/index.php?title=Ostatus&action=edit&redlink=1 "Ostatus (存在しないページ)")）がLaconica（後の[GNU social](/GNU_social "GNU social")）により実装されたのが始まりであり、以降[diaspora\*](/index.php?title=Diaspora*&action=edit&redlink=1 "Diaspora* (存在しないページ)")、[Mastodon](/Mastodon "Mastodon")など非常に多くの分散SNSが登場している。
+この流れは2007年、**OpenMicroBlogging**（後の[Ostatus](/Ostatus "Ostatus (存在しないページ)")）がLaconica（後の[GNU social](/GNU_social "GNU social")）により実装されたのが始まりであり、以降[diaspora\*](/Diaspora* "Diaspora* (存在しないページ)")、[Mastodon](/Mastodon "Mastodon")など非常に多くの分散SNSが登場している。
 
 ## 分散SNSの一覧
 

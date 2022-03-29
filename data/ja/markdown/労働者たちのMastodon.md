@@ -2,7 +2,7 @@
 
 |          |                                                                                                                                                                                                                                     |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| タイトル | 労働者ろうどうしゃたちのMastodonマストドン                                                                                                                                                                                          |
+| タイトル | 労働者                                                                                                                                                                                                                              |
 | 画像     | [<img src="/images/thumb/1/17/Mstdn-workers.png/300px-Mstdn-workers.png" srcset="/images/1/17/Mstdn-workers.png 1.5x" width="300" height="297" alt="Mstdn-workers.png" />](/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Mstdn-workers.png) |
 | ドメイン | <a href="https://mstdn-workers.com" rel="nofollow">https://mstdn-workers.com</a>                                                                                                                                                    |
 | 管理者   | <a href="https://mstdn-workers.com/@vitaone" rel="nofollow">ビタワン</a>                                                                                                                                                            |
@@ -14,7 +14,7 @@
   
 **労働者**ろうどうしゃ**たちのMastodon**マストドン（Mstdn-workers.comマストドンワーカーズ）とは、オープンソースのソーシャルネットワーク[Mastodon](/Mastodon "Mastodon")のインスタンスである。
 
-<div id="toc">
+<div>
 
 <div lang="ja" dir="ltr">
 
@@ -84,9 +84,9 @@ Buzzfeedのクラウド女学院の記事にサラッとかいてある。ヤフ
 
 <div>
 
-1.  <span id="cite_note-1">[↑](#cite_ref-1) <a href="https://mstdn-workers.com/@vitaone/100912879108971051" rel="nofollow">https://mstdn-workers.com/@vitaone/100912879108971051</a></span>
-2.  <span id="cite_note-2">[↑](#cite_ref-2) <a href="https://mstdn-workers.fanbox.cc/posts/1993691" rel="nofollow">https://mstdn-workers.fanbox.cc/posts/1993691</a></span>
-3.  <span id="cite_note-3">[↑](#cite_ref-3) 飯テロの対する発言<a href="https://mstdn-workers.com/@sasann/842160" rel="nofollow">[1]</a></span>
+1.  [↑](#cite_ref-1) <a href="https://mstdn-workers.com/@vitaone/100912879108971051" rel="nofollow">https://mstdn-workers.com/@vitaone/100912879108971051</a>
+2.  [↑](#cite_ref-2) <a href="https://mstdn-workers.fanbox.cc/posts/1993691" rel="nofollow">https://mstdn-workers.fanbox.cc/posts/1993691</a>
+3.  [↑](#cite_ref-3) 飯テロの対する発言<a href="https://mstdn-workers.com/@sasann/842160" rel="nofollow">[1]</a>
 
 </div>
 
